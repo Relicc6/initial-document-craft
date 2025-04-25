@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import componentTagger from 'lovable-tagger'
@@ -32,7 +33,7 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000,
+    port: 8080,
     host: true
   }
 })
